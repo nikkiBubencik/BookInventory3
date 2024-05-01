@@ -1,0 +1,708 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lilita One", sans-serif;
+}
+
+header {
+  background-color: #5462fc;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 115px;
+  padding-right: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+  color: #e52e57;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header-right ul {
+  list-style-type: none;
+}
+
+.header-right ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+.header-right ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header-right ul li a:hover {
+  text-decoration: none;
+  color: #e52e57;
+}
+
+.search-box {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* .toy-catalog {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.toy-card {
+  width: calc(25% - 40px);; 
+  margin: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  box-sizing: border-box; 
+  transition: transform 0.3s ease;
+}
+
+.toy-card:hover {
+  transform: scale(1.1); 
+}
+
+.toy-card img {
+  max-width: 100%;
+  border-radius: 5px;
+  max-height: 250px;
+}
+
+.toy-card h2 {
+  margin-top: 30px;
+  color: #a8ca29;
+}
+
+.toy-details-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.toy-image {
+  flex: 1;
+}
+
+.toy-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.toy-details {
+  flex: 2;
+  padding-left: 20px;
+}
+
+.toy-details p {
+  margin-bottom: 10px;
+  font-family: sans-serif;
+  color: darkgrey;
+}
+
+.order-lookup-container {
+  max-width: 600px;
+  margin: 0 auto;
+} */
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.checkbox-wrapper {
+  display: inline-block;
+  margin-right: 10px; /* Adjust as needed */
+  margin-top: 5px;
+}
+
+/* Optional: To align labels with checkboxes */
+label {
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+input[type="email"],
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #a8ca29;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #097969;
+}
+
+.order-lookup-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.order-details {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.order-details h2 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.order-details p {
+  margin-bottom: 5px;
+  font-family: sans-serif;
+  color: darkgrey;
+}
+
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-container p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: sans-serif;
+  color: darkgrey;
+  text-align: justify;
+}
+
+.login-box {
+  width: 360px;
+  height: 280px;
+  margin: auto;
+  border-radius: 3px;
+  background-color: white;
+}
+
+.signup-box {
+  width: 360px;
+  height: 620px;
+  margin: auto;
+  background-color: white;
+  border-radius: 3px;
+}
+.login-box {
+  width: 360px;
+  height: 280px;
+  margin: auto;
+  border-radius: 3px;
+  background-color: white;
+}
+/* h1 {
+  text-align: center;
+  padding-top: 15px;
+}
+h4 {
+  text-align: center;
+} */
+.login-box form {
+  width: 300px;
+  margin-left: 20px;
+}
+.login-box form label {
+  display: flex;
+  margin-top: 20px;
+  font-size: 18px;
+}
+.login-box form input {
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 6px;
+  outline: none;
+}
+/* input[type="button"] {
+  width: 320px;
+  height: 35px;
+  margin-top: 20px;
+  border: none;
+  background-color: #49c1a2;
+  color: white;
+  font-size: 18px;
+}
+p {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 15px;
+} */
+.para-2 {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  margin-top: -10px;
+}
+.para-2 a {
+  color: #49c1a2;
+}
+
+.login-container {
+  margin-top: 2%;
+  width: 400px;
+  max-width: 400px;
+  margin: 1rem;
+  padding: 2rem;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+  border-radius: var(--border-radius);
+  background: #ffffff;
+}
+
+.container,
+.form__input,
+.form__button {
+  font: 500 1rem 'Quicksand', sans-serif;
+}
+
+.form--hidden {
+  display: none;
+}
+
+.form > *:first-child {
+  margin-top: 0;
+}
+
+.form > *:last-child {
+  margin-bottom: 0;
+}
+
+.form__title {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.form__message {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.form__message--success {
+  color: var(--color-success);
+}
+
+.form__message--error {
+  color: var(--color-error);
+}
+
+.form__input-group {
+  margin-bottom: 1rem;
+}
+
+.form__input {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  box-sizing: border-box;
+  border-radius: var(--border-radius);
+  border: 1px solid #dddddd;
+  outline: none;
+  background: #eeeeee;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.form__input:focus {
+  border-color: var(--color-primary);
+  background: #ffffff;
+}
+
+.form__input--error {
+  color: var(--color-error);
+  border-color: var(--color-error);
+}
+
+.form__input-error-message {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--color-error);
+}
+
+.form__button {
+  width: 100%;
+  padding: 1rem 2rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #ffffff;
+  border: none;
+  border-radius: var(--border-radius);
+  outline: none;
+  cursor: pointer;
+  background: var(--color-primary);
+}
+
+.form__button:hover {
+  background: var(--color-primary-dark);
+}
+
+.form__button:active {
+  transform: scale(0.98);
+}
+
+.form__text {
+  text-align: center;
+}
+
+.form__link {
+  color: var(--color-secondary);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.form__link:hover {
+  text-decoration: underline;
+}
+
+.welcome {
+  text-align: center;
+  color:aliceblue;
+}
+
+.list-lookup-container {
+  float: left;
+  width: 75%;
+  padding: 20px;
+}
+
+.list-names {
+  float: right;
+  width: 25%;
+  padding: 20px;
+  background-color: #f3f3f3; /* Just for visibility */
+}
+
+.search-results {
+  background-color: #f3f3f3;
+  margin-top: 3%;
+  padding: 3%;
+}
+
+
+/* Style for login container */
+.login_container {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for form title */
+.form_title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+/* Style for form input groups */
+.form_input-group {
+  margin-bottom: 20px;
+}
+
+/* Style for form inputs */
+.form_input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Style for form button */
+.form_button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form_button:hover {
+  background-color: #0056b3;
+}
+
+/* Style for form text */
+.form_text {
+  text-align: center;
+}
+
+/* Style for form link */
+.form_link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.form_link:hover {
+  text-decoration: underline;
+}
+
+.book-catalog {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.book-card {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.book-card h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.book-card p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.book-card a {
+  text-decoration: none;
+  color: #333;
+}
+
+.book-card a:hover {
+  text-decoration: underline;
+}
+
+.book-card button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.book-card button:hover {
+  background-color: #0056b3;
+}
+
+.back-button {
+  margin: 10px;
+  display: inline-block;
+  /* float: left; */
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}
+
+.page-header {
+  font-size: 34px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+/* Style for the main container */
+.add-book-list-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+/* Style for the form */
+.add-book-list-container form {
+  margin-bottom: 20px;
+}
+
+/* Style for the input fields and buttons */
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group input[type="text"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style for the remove button */
+.remove-button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style for the success and error messages */
+.message {
+  margin-bottom: 15px;
+}
+
+.message.success {
+  color: green;
+}
+
+.message.error {
+  color: red;
+}
+
+/* CSS styles for account.php */
+
+/* Main container */
+.account-info-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Headline */
+.account-info-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Account information */
+.account-info {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Individual account info items */
+.account-info p {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.account-info p strong {
+  font-weight: bold;
+}
+
+.password-reset-form, .username-change-form {  
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: none;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.password-reset-form label, .username-change-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.password-reset-form input[type="password"], .username-change-form input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.password-reset-form .error-message {
+  color: red;
+  margin-bottom: 20px;
+}
+
+.password-reset-form button, .username-change-form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.password-reset-form button[type="submit"], .username-change-form button[type="submit"] {
+  margin-right: 10px;
+}
+
+.password-reset-form button[type="button"], .username-change-form button[type="button"] {
+  background-color: #dc3545;
+}
